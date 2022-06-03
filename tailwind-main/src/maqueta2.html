@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maqueta</title>
+    <link href="../dist/output.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+
+</head>
+
+<body>
+
+    <nav class="bg-indigo-500">
+        <div class="container py-2 mx-auto px-10 flex flex-wrap items-center justify-between">
+
+            <!-- BEGIN logo -->
+            <div class="flex items-center">
+                <img src="images/logou2.png" class="h-14">
+                <h2 class="text-white">Universidad de Córdoba</h2>
+            </div>
+            <!-- END logo -->
+
+
+            <!-- ENG Botón responsive -->
+            <button id="bntResponsive"
+                class="p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-white"
+                data-collapse-toggle="mobile-menu" type="button" aria-controls="mobile-menu" aria-expanded="false">
+                <svg id="iconOpen" class="text-white w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+                <svg id="iconClose" class="text-white hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+            <!-- END Botón responsive -->
+
+
+            <!-- BEGIN items adicionales -->
+            <div class="hidden md:block md:w-auto w-full " id="mobile-menu">
+                <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-white md:p-0 dark:text-white"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">About</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Services</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="block py-2 pr-4 pl-3 text-white hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 ">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- END items adicionales -->
+
+
+        </div>
+    </nav>
+
+    <nav class="md:bg-gray-800 bg-gray-500 p-1">
+        <div class="container mx-auto px-10 w-full">
+            <ul class="flex flex-col justify-center md:flex-row mt-1 text-xs md:text-sm">
+                <li>
+                    <a href="#" class="transition hover:-translate-y-1 hover:scale-110  duration-300 
+                                      block py-2
+                                    text-gray-100 border-b border-gray-400 
+                                      hover:rounded-md text-sm 
+                                      hover:bg-gray-700 
+                                      hover:text-gray-200
+                                      md:border-0 md:mx-2 md:px-3" aria-current="page">Inicio</a>
+                </li>
+                <li>
+                    <a href="#" class="transition hover:-translate-y-1 hover:scale-110 duration-300 
+                                        block py-2
+                                    text-gray-100 border-b border-gray-400 hover:rounded-md text-sm hover:bg-gray-700 hover:text-gray-200
+                                      md:border-0 md:mx-2 md:px-3" aria-current="page">Mis Cursos</a>
+                </li>
+                <li>
+                    <a href="#" class="transition hover:-translate-y-1 hover:scale-110  duration-300  
+                                        block py-2
+                                    text-gray-100 border-b border-gray-400 hover:rounded-md text-sm hover:bg-gray-700 hover:text-gray-200
+                                      md:border-0 md:mx-2 md:px-3" aria-current="page">Calificaciones</a>
+                </li>
+                <li>
+                    <a href="#" class="transition hover:-translate-y-1 hover:scale-110  duration-300 
+                                        block py-2
+                                    text-gray-100 border-b border-gray-400 hover:rounded-md text-sm hover:bg-gray-700 hover:text-gray-200
+                                      md:border-0 md:mx-2 md:px-3" aria-current="page">Insignias</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container flex ">
+        <div class=" hidden md:block md:w-auto bg-purple-500 " id="mobile-menu2">
+                <ul class="sm:block md:mt-0 md:text-sm md:font-medium">
+                      <!--<ul class="flex flex-col mt-4 md:flex-row"> -->
+
+                    <li>
+                        <a href="#" class="transition hover:translate-y-1 hover:scale-110  duration-300 
+                                          flex m-2 py-2 items-center
+                                        text-gray-100 border-b border-gray-400 hover:rounded-md text-sm hover:bg-gray-700 hover:text-gray-200
+                                          md:border-0 md:mx-2 md:px-3" aria-current="page">
+                                          <i class="pr-3 fa-solid fa-graduation-cap"> </i>
+                                          Logros
+                                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="transition hover:translate-y-1 hover:scale-110  duration-300 
+                                            flex m-2 py-2 items-center
+                                        text-gray-100 border-b border-gray-400 hover:rounded-md text-sm hover:bg-gray-700 hover:text-gray-200
+                                          md:border-0 md:mx-2 md:px-3" aria-current="page">
+                                          <i class=" pr-3 fa-solid fa-book"> </i>
+                                          Cursos
+                                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="transition hover:translate-y-1 hover:scale-110  duration-300 
+                                            flex m-2 py-2 items-center
+                                        text-gray-100 border-b border-gray-400 hover:rounded-md text-sm hover:bg-gray-700 hover:text-gray-200
+                                          md:border-0 md:mx-2 md:px-3" aria-current="page">
+                                          <i class=" pr-3 fa-solid fa-user"> </i>
+                                          Cuenta
+                                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="transition hover:translate-y-1 hover:scale-110  duration-300 
+                                            flex m-2 py-2 items-center 
+                                        text-gray-100 border-b border-gray-400 hover:rounded-md text-sm hover:bg-gray-700 hover:text-gray-200
+                                          md:border-0 md:mx-2 md:px-3" aria-current="page">
+                                          <i class="pr-3 fa-solid fa-calendar-days"></i>
+                                          Calendario
+                                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="transition hover:translate-y-1 hover:scale-110  duration-300 
+                                            flex m-2 py-2 items-center
+                                        text-gray-100 border-b border-gray-400 hover:rounded-md text-sm hover:bg-gray-700 hover:text-gray-200
+                                          md:border-0 md:mx-2 md:px-3" aria-current="page">
+                                          <i class=" pr-3 fa-solid fa-right-from-bracket"></i>
+                                          Salir
+                                        </a>
+                    </li>
+                </ul>
+                
+        </div>
+        <div>
+            <!-- ENG Botón responsive -->
+            <button id="bntResponsive2"
+                class="p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-white"
+                data-collapse-toggle="mobile-menu" type="button" aria-controls="mobile-menu" aria-expanded="false">
+                <svg id="iconOpen" class="text-white w-6 h-6" fill="purple-500" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                        clip-rule="evenodd"></path>
+                </svg>
+                <svg id="iconClose" class="text-white hidden w-6 h-6" fill="purple-500" viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                        clip-rule="evenodd"></path>
+                </svg>
+            </button>
+        <!-- END Botón responsive -->
+
+        
+
+</div>
+
+        <div class="bg-red-50 container mx-auto px-5 py-4 rounded-xl">
+
+            <h1 class="text-center font-bold text-2xl ">Mis Cursos</h1>
+
+
+            <div class="grid md:grid-cols-4 sm:grid-cols-2 gap-5">
+                <div>
+                    <div class="shadow-lg p-3">
+                        <div><img src="images/proyecto-excel-financiero.webp" alt=""></div>
+                        <h3 class="">Cursos deExcel financiero</h3>
+                        <p class="text-sm">
+                            Curso de excel financiero para aquellas personas que quieran potenciar sus habilidades en
+                            esta herramienta
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="shadow-lg p-3">
+                        <div><img src="images/proyecto-excel-financiero.webp" alt=""></div>
+                        <h3 class="">Cursos deExcel financiero</h3>
+                        <p class="text-sm">
+                            Curso de excel financiero para aquellas personas que quieran potenciar sus habilidades en
+                            esta herramienta
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="shadow-lg p-3">
+                        <div><img src="images/proyecto-excel-financiero.webp" alt=""></div>
+                        <h3 class="">Cursos deExcel financiero</h3>
+                        <p class="text-sm">
+                            Curso de excel financiero para aquellas personas que quieran potenciar sus habilidades en
+                            esta herramienta
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <div class="shadow-lg p-3">
+                        <div><img src="images/proyecto-excel-financiero.webp" alt=""></div>
+                        <h3 class="">Cursos deExcel financiero</h3>
+                        <p class="text-sm">
+                            Curso de excel financiero para aquellas personas que quieran potenciar sus habilidades en
+                            esta herramienta
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    
+
+    </div >
+
+    <div class="bg-blue-100 container mx-auto px-5 py-4 rounded-xl" >
+        <h1 class="text-center font-bold text-2xl ">Escuela Online</h1>
+        <p class="mb-2 text-center text-lg" >
+            El aprendizaje en línea se ha vuelto una opción educativa común. Algunos chicos toman todas sus clases en línea.
+            Otros, reciben algunas en línea y otras en una escuela tradicional. 
+            También existen programas de “aprendizaje combinado” que ofrecen una mezcla de enseñanza en línea y en persona en el mismo salón de clases.
+        </p>
+        
+        
+       <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-5">
+
+            <div class=" bg-blue-200 shadow-lg p-2 justify-center rounded-xl">
+                <div><img src="images/4418.jpg" alt=""></div>
+                <h3 class=" text-center font-bold">Cursos Desarrollo Web</h3>
+                <p class="text-sm">
+                    Obtén formación y conocimientos expertos en desarrollo web para una carrera de éxito. Aprende los fundamentos actuales y
+                     los temas avanzados del desarrollo web. Empieza hoy. Certificado Disponible. 4 Proyectos Finales. Acceso De Por Vida.
+                </p>
+            </div>
+            <div class="bg-blue-200 shadow-lg p-3 rounded-xl">
+                <div><img src="images/6006457.jpg" alt=""></div>
+                <h3 class="text-center font-bold">Cursos Lengua Extranjera Ingles</h3>
+                <p class="text-sm">
+                    Comienza Hoy! Aprende Inglés En La Mitad De Tiempo Con Nuestro Método Innovador. Estudia Tu Curso De Inglés En La Escuela #1 
+                    de Latinoamérica ¡Inscríbete Hoy! 100% Online. Clases en Vivo 24x7. Profesores Americanos
+                </p>
+            </div>
+        </div>
+        </div>
+
+        <div>
+
+
+    </div>
+
+
+
+    <footer class="bg-gray-700 text-center text-white py-5 text-sm">
+        <div class="flex justify-center"><img src="images/logou2.png" alt=""></div>
+        <div>Diplomado en desarrollo de aplicaciones orientadas a la nube</div>
+        <div>Universidad de Córdoba</div>
+    </footer>
+
+    <script>
+        var menuResponsive = document.getElementById('mobile-menu');
+        var btnOpen = document.getElementById('iconOpen');
+        var btnClose = document.getElementById('iconClose');
+
+        function hideShow() {
+            if (menuResponsive.classList.contains('hidden')) {
+                menuResponsive.classList.remove('hidden');
+                btnOpen.classList.add('hidden');
+                btnClose.classList.remove('hidden');
+            } else {
+                menuResponsive.classList.add('hidden');
+                btnClose.classList.add('hidden');
+                btnOpen.classList.remove('hidden');
+            }
+        }
+
+        const btnMenu = document.getElementById('bntResponsive');
+        btnMenu.addEventListener('click', hideShow)
+    </script>
+
+    <script>
+        var sidebar_menu = document.getElementById('mobile-menu2');
+        var btnOpen2 = document.getElementById('iconOpen');
+        var btnClose2 = document.getElementById('iconClose');
+
+        function hideShow() {
+            if (sidebar_menu.classList.contains('hidden')) {
+                sidebar_menu.classList.remove('hidden');
+                btnOpen2.classList.add('hidden');
+                btnClose2.classList.remove('hidden');
+            } else {
+                sidebar_menu.classList.add('hidden');
+                btnClose2.classList.add('hidden');
+                btnOpen2.classList.remove('hidden');
+            }
+        }
+        const btnMenu2 = document.getElementById('bntResponsive2');
+        btnMenu2.addEventListener('click', hideShow)
+    </script>
+
+</body>
+
+</html>
